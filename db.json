@@ -1,17 +1,14 @@
 {
-  "type": [
-    { "id": 1, "title": "boots" },
-    { "id": 2, "title": "sneaks" },
-    { "id": 3, "title": "loafers" }
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
   ],
-  "sie": [
-    { "id": 1, "body": "large" },
-    { "id": 2, "body": "small" },
-    {"id": 3,  "body": "medium"}
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "color": [
-   { "id": 1, "title" : "blue"},
-    { "id": 2, "title": "black" },
-    { "id": 3, "title": "red" }
-    ]
+  "profile": {
+    "name": "typicode"
+  }
 }
